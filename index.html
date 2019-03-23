@@ -13,6 +13,20 @@
 </head>
 
 <body>
+	
+	<select id="dropdown">
+		<option value="40.734041, -73.993026" selected="selected">New York City, USA</option>
+		<option value="34.044429, -118.252189">Los Angeles, USA</option>
+		<option value="39.876081, 116.400027">Beijing, China</option>
+		<option value="28.615840, 77.207733">New Dehli, India</option>
+		<option value="41.040761, 28.995328">Istanbul, Turkey</option>
+		<option value="41.809826, 12.512599">Rome, Italy</option>
+		<option value="40.364109, -3.731893">Madrid, Spain</option>
+		<option value="6.658463, 3.442582">Lagos, Nigeria</option>
+		<option value="-33.814752, 18.482820">Cape Town, South Africa</option>
+		<option value="-33.821499, 151.191167">Sydney, Australia</option>
+	</select>
+	
 	<div class="container">
 		<h1>Today's Sunrise/Sunset</h1>
 		<div class="row" id="timeDisplay">
@@ -24,6 +38,8 @@
 			</div>
 		</div>
 	</div>
+	
+	<button type="button" class="btn btn-primary" onclick="getRandColor()">Color</button>
 
 	<!--Bootstrap-->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
